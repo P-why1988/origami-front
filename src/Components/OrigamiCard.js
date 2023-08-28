@@ -1,21 +1,23 @@
-import { origamiList } from '../Data/origamiList';
 import ButtonBar from './ButtonBar';
 
 import '../Styles/OrigamiCard.css';
 
-function OrigamiCard() {
+function OrigamiCard({ origami }) {
+
     return (
     <>
         <li className='ori-card'>
-            <h2>{ origamiList[0].name }</h2>
+            <h2>{ origami.name }</h2>
             <img 
                 className='ori-card-cover'
-                src={ origamiList[0].coverImg }
-                alt={ origamiList[0].imgAlt }
-                title={ origamiList[0].imgAlt } 
+                src={ origami.coverImg }
+                alt={ origami.imgAlt }
+                title={ origami.imgAlt } 
             />
-            <p>{ origamiList[0].description }</p>
-            <ButtonBar />
+            <p>{ origami.description }</p>
+            <ButtonBar
+                origami={ origami }
+            />
         </li>
     </>
     );

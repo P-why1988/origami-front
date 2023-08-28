@@ -1,0 +1,12 @@
+.ori-btn-container {
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ori-btn-container img {
+    width: 50px;
+    margin: 0;
+    padding: 0;
+}

@@ -5,9 +5,10 @@
 }
 
 .ori-list {
-	list-style-type: none;
-	padding: 32px;
+	/* list-style-type: none;
+	padding: 32px; */
 	display: flex;
+    flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: space-evenly;
 }

@@ -1,14 +1,40 @@
-.ori-card-cover {
-	height: 250px;
-	width: 250px;
-	/* border-radius: 20px; */
-	object-fit: cover;
-}
-
 .ori-card {
-    margin: 10px;
+    width: 290px;
+    height: 500px;
+    border: solid black 2px;
+    background-image: url(../Assets/card-background.jpg);
+    overflow-y: auto;
 	display: flex;
 	align-items: flex-start;
-	justify-content: center;
+	/* justify-content: center; */
+    align-items: center;
 	flex-direction: column;
+}
+
+.ori-card h2 {
+    width: 100%;
+    height: 3rem;
+    color: red;
+    text-align: center;
+    align-self: auto;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.ori-card-cover {
+	max-height: 250px;
+	max-width: 250px;
+	border-radius: 1rem;
+    border: solid black 1px;
+	/* object-fit: cover; */
+}
+
+.ori-card p {
+    text-align: center;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
 }

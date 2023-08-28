@@ -1,18 +1,19 @@
+import { nanoid } from 'nanoid';
+import { buttonList } from '../Data/buttonList';
 import '../Styles/ButtonBar.css';
-import youtubeBtn from '../Assets/Icons/youtube-btn.svg';
-import { origamiList } from '../Data/origamiList';
+import MyButton from './MyButton';
 
-function ButtonBar() {
+function ButtonBar({ origami }) {
     return (
-    <>
-        <img 
-            className='ori-btn-bar-item'
-            src={ youtubeBtn }
-            alt='Bouton Youtube'
-            title='Bouton Youtube'
-            onClick={ origamiList[0].video }
-        />
-    </>
+    <div className='ori-btn-bar'>
+        { buttonList.map(btn => 
+            <MyButton 
+                key={ nanoid() }
+                origami={ origami }
+                btn={ btn }
+            />
+        )}
+    </div>
     );
 };
 
