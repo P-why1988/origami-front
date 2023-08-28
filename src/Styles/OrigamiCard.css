@@ -1,0 +1,14 @@
+.ori-card-cover {
+	height: 250px;
+	width: 250px;
+	/* border-radius: 20px; */
+	object-fit: cover;
+}
+
+.ori-card {
+    margin: 10px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+}
