@@ -1,24 +1,26 @@
 .ori-card {
+    margin: 0 1rem 2rem 1rem;
     width: 290px;
     height: 500px;
-    border: solid black 2px;
-    background-image: url(../Assets/card-background.jpg);
+    border-radius: 1rem;
+    background-image: url(../Assets/MyWebsite/vertical-star-color.jpg);
+    background-size: cover;
     overflow-y: auto;
 	display: flex;
 	align-items: flex-start;
-	/* justify-content: center; */
     align-items: center;
 	flex-direction: column;
 }
 
 .ori-card h2 {
     width: 100%;
-    height: 3rem;
-    color: red;
+    height: 15%;
+    color: white;
+    background: rgba(192, 81, 81, 0.5);
     text-align: center;
-    align-self: auto;
     padding: 0;
     margin: 0;
+    margin-bottom: 0.5rem;
     
 }
 
