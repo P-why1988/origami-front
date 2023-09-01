@@ -1,42 +1,49 @@
 .ori-card {
     margin: 0 1rem 2rem 1rem;
-    width: 290px;
-    height: 500px;
-    border-radius: 1rem;
+    width: 300px;
+    height: 450px;
+    border-radius: 0.5rem;
     background-image: url(../Assets/MyWebsite/vertical-star-color.jpg);
     background-size: cover;
     overflow-y: auto;
 	display: flex;
-	align-items: flex-start;
     align-items: center;
 	flex-direction: column;
 }
 
-.ori-card h2 {
+.ori-card h3 {
     width: 100%;
     height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
     color: white;
-    background: rgba(192, 81, 81, 0.5);
+    background: rgba(0, 0, 0, 40%);
     text-align: center;
-    padding: 0;
+    padding: 0.5rem;
     margin: 0;
     margin-bottom: 0.5rem;
     
 }
 
 .ori-card-cover {
-	max-height: 250px;
-	max-width: 250px;
+	height: 35%;
+	width: 90%;
 	border-radius: 1rem;
     border: solid black 1px;
-	/* object-fit: cover; */
+	object-fit: cover;
 }
 
 .ori-card p {
-    text-align: center;
+    height: 30%;
+    display: flex;
+    align-items: safe center;
+    overflow-y: auto;
     margin: 0.5rem;
     padding: 0.5rem;
     border-radius: 0.5rem;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
+    color: black;
+    background-color: rgba(255, 255, 255, 70%);
 }

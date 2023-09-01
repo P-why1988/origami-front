@@ -1,5 +1,9 @@
 .ori-navbar {
-    position: sticky;
+    padding: 0;
     padding-left: 3rem;
     height: 60px;
+}
+
+.me-auto a:focus {
+    font-weight: bold;
 }

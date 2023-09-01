@@ -7,7 +7,7 @@ function OrigamiCard({ origami }) {
     return (
     <>
         <li className='ori-card'>
-            <h2>{ origami.name }</h2>
+            <h3>{ origami.name }</h3>
             <img 
                 className='ori-card-cover'
                 src={ origami.coverImg }

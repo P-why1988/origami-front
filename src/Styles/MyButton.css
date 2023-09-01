@@ -12,5 +12,6 @@
 }
 
 .ori-btn-container label {
-    font-size: small;
+    font-size: 80%;
+    color: black;
 }

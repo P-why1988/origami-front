@@ -26,15 +26,15 @@ export const origamiList = [
         coverImg: batPlane,
         imgAlt: 'Fausse boîte',
         name: 'Une drôle de boîte',
-        description: `On dirait pas que c'est une boîte, et pourtant... nan en fait c'est pas une boîte`,
+        description: `On dirait pas que c'est une boîte, et pourtant... nan en fait c'est pas une boîte, même si on cherche bien, en la retournant dans tous les sens. Ce ne sera jamais une boîte, mais j'aimerais savoir si le texte dépasse !`,
         video: 'https://www.youtube.com/watch?v=1xakZTXOweU'
     },
     {
         type: TYPE.box,
         coverImg: batPlane,
         imgAlt: 'Fausse boîte 2',
-        name: 'Une drôle de boîte, le retour',
-        description: `On dirait pas que c'est une boîte, et pourtant... nan en fait c'est pas une boîte`,
+        name: 'Une drôle de boîte, le retour de la vengeance',
+        description: `On dirait pas que c'est une boîte, et pourtant...`,
         video: 'https://www.youtube.com/watch?v=1xakZTXOweU'
     }
 ];
