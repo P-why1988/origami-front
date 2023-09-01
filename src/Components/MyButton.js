@@ -5,26 +5,31 @@ function MyButton({ origami, btn }) {
     function btnType() {
         switch(btn.buttonType) {
             case BUTTON_TYPE.youtube:
-                return origami.video;
+                return origami.video && origami.video;
             case BUTTON_TYPE.instructions:
-                return origami.video;
+                return origami.instructions && origami.instructions;
             default:
                 return 'error';
         };
     };
 
-    return (
-    <div className='ori-btn-container'>
-        <a href={ btnType() }>
-                <img 
-                    src={ btn.src }
-                    alt={ btn.alt }
-                    title={ btn.alt }
-                />
-        </a>
-        <label>{ btn.label }</label>
-    </div>
-    );
+    const exist = btnType();
+    if (exist) {
+        return (
+        <div className='ori-btn-container'>
+            <a href={ btnType() }>
+                    <img 
+                        src={ btn.src }
+                        alt={ btn.alt }
+                        title={ btn.alt }
+                    />
+            </a>
+            <label>{ btn.label }</label>
+        </div>
+        );
+    }
+
+    return null;
 };
 
 export default MyButton;

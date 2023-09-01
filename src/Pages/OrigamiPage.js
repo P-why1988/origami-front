@@ -8,6 +8,7 @@ function OrigamiPage({ type }) {
 
     return (
         <>
+            <h2>Voici la liste des { type }</h2>
             <ul className='ori-list'>
                     { origamis.map((element) => 
                         <OrigamiCard

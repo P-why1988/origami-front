@@ -1,3 +1,18 @@
+h2 {
+    width: fit-content;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    color: black;
+    text-shadow: white 0px 2px 5px;
+    background: rgb(173, 216, 230);
+    
+}
+
 .ori-list {
 	/* list-style-type: none;
 	padding: 32px; */

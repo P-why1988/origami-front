@@ -12,7 +12,7 @@ function App() {
     <Container fluid className='p-0 ori-fullsize'>
         <BrowserRouter>
             <MySpecialNavbar />
-            <Container fluid className='p-0 pt-3 ori-body'>
+            <Container fluid className='p-0 ori-body'>
                 <Routes>
                     <Route exact path='*' element={ <Navigate to='/home' /> } />
                     <Route exact path='/home' element={ <Home /> } />
