@@ -1,7 +1,5 @@
 .ori-btn-bar {
-    width: calc(100% - 1rem);
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
+    width: 90%;
     border-radius: 0.5rem;
     background-color: rgba(255, 255, 255, 0.5);
     display: flex;

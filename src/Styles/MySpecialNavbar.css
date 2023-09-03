@@ -3,11 +3,24 @@
     padding-left: 3rem;
     height: 60px;
     background-color: rgb(173, 216, 230) !important;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+@media(width <= 700px) {
+    .ori-navbar {
+        padding-left: 0;
+    }
 }
 
 .ori-navbar-brand {
     font-style: italic;
     text-shadow: white 1px 1px 2px;
+}
+
+.me-auto a {
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .me-auto a:focus {
