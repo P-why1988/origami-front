@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/origami-front/static/css/main.ffd3fdc2.css",
-    "main.js": "/origami-front/static/js/main.3f0728ec.js",
+    "main.js": "/origami-front/static/js/main.28e672a7.js",
     "static/js/787.7fb77b6a.chunk.js": "/origami-front/static/js/787.7fb77b6a.chunk.js",
     "static/media/website-background.jpg": "/origami-front/static/media/website-background.0a56ee0bc4f45be1df81.jpg",
     "static/media/vertical-star-color.jpg": "/origami-front/static/media/vertical-star-color.5957fadfbdc96ef63ec5.jpg",
@@ -11,11 +11,11 @@
     "index.html": "/origami-front/index.html",
     "static/media/youtube-btn.svg": "/origami-front/static/media/youtube-btn.67ab4e4b900f83f915be1c1eda6c3db7.svg",
     "main.ffd3fdc2.css.map": "/origami-front/static/css/main.ffd3fdc2.css.map",
-    "main.3f0728ec.js.map": "/origami-front/static/js/main.3f0728ec.js.map",
+    "main.28e672a7.js.map": "/origami-front/static/js/main.28e672a7.js.map",
     "787.7fb77b6a.chunk.js.map": "/origami-front/static/js/787.7fb77b6a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ffd3fdc2.css",
-    "static/js/main.3f0728ec.js"
+    "static/js/main.28e672a7.js"
   ]
 }
