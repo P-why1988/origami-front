@@ -4,11 +4,16 @@ import { origamiList } from '../Data/origamiList';
 import '../Styles/OrigamiPage.css';
 
 function OrigamiPage({ type }) {
-    const origamis = origamiList.filter(origami => origami.type === type && origami);
+    let origamis = [];
+    if (type) {
+        origamis = origamiList.filter(origami => origami.type === type && origami);
+    } else {
+        origamis = origamiList;
+    }
 
     return (
         <>
-            <h2>Voici la liste des { type }</h2>
+            <h2>{ type ? `Voici la liste des ${type}` : `Voici la liste de tous les origamis`}</h2>
             <ul className='ori-list'>
                     { origamis.map((element) => 
                         <OrigamiCard

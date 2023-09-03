@@ -1,7 +1,9 @@
 .ori-card {
     margin: 0 1rem 2rem 1rem;
-    width: 300px;
-    height: 450px;
+    /* width: 300px;
+    height: 450px; */
+    width: 18rem;
+    height: 29rem;
     border-radius: 0.5rem;
     background-image: url(../Assets/MyWebsite/vertical-star-color.jpg);
     background-size: cover;
@@ -39,6 +41,7 @@
 
 .ori-card p {
     height: 30%;
+    width: 90%;
     display: flex;
     align-items: safe center;
     text-align: center;

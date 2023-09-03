@@ -17,6 +17,8 @@ function MySpecialNavbar() {
             <Nav className="me-auto">
                 <Nav.Link as={ Link } to='/animals'>Animaux</Nav.Link>
                 <Nav.Link as={ Link } to='/boxes'>Boîtes</Nav.Link>
+                <Nav.Link as={ Link } to='/other'>Autres</Nav.Link>
+                <Nav.Link as={ Link } to='/all'>Tous les modèles</Nav.Link>
             </Nav>
             </Navbar.Collapse>
         </Navbar>

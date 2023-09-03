@@ -32,7 +32,21 @@ function App() {
                             /> 
                         }
                     />
-                
+                    <Route 
+                        exact path='/other'
+                        element={
+                            <OrigamiPage
+                                type={ TYPE.other }
+                            /> 
+                        }
+                    />
+                    <Route 
+                        exact path='/all'
+                        element={
+                            <OrigamiPage
+                            /> 
+                        }
+                    />
                 </Routes>
             </Container>
         </BrowserRouter>
