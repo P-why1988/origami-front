@@ -15,8 +15,7 @@ h2 {
 }
 
 .ori-list {
-	/* list-style-type: none;
-	padding: 32px; */
+    padding: 0;
 	display: flex;
     flex-direction: row;
 	flex-wrap: wrap;

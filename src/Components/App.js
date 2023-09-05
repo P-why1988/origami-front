@@ -9,20 +9,16 @@ import { Container } from 'react-bootstrap';
 
 function App() {
     
-    function url(link) {
-        return 'origami-front/' + link;
-    }
-    
     return (
         <Container fluid className='p-0 ori-fullsize'>
             <HashRouter>
                 <MySpecialNavbar />
                 <Container fluid className='p-0 ori-body'>
                     <Routes>
-                        <Route exact path='*' element={ <Navigate to={ url('home') } /> } />
-                        <Route exact path={ url('home') } element={ <Home /> } />
+                        <Route exact path='*' element={ <Navigate to='home' /> } />
+                        <Route exact path='home' element={ <Home /> } />
                         <Route 
-                            exact path={ url('boxes') }
+                            exact path='boxes'
                             element={
                                 <OrigamiPage
                                     type={ TYPE.box }
@@ -30,7 +26,7 @@ function App() {
                             }
                         />
                         <Route 
-                            exact path={ url('animals') }
+                            exact path='animals'
                             element={
                                 <OrigamiPage
                                     type={ TYPE.animal }
@@ -38,7 +34,7 @@ function App() {
                             }
                         />
                         <Route 
-                            exact path={ url('other') }
+                            exact path='other'
                             element={
                                 <OrigamiPage
                                     type={ TYPE.other }
@@ -46,7 +42,7 @@ function App() {
                             }
                         />
                         <Route 
-                            exact path={ url('all') }
+                            exact path='all'
                             element={
                                 <OrigamiPage
                                 /> 

@@ -3,19 +3,43 @@
     padding-left: 3rem;
     height: 60px;
     background-color: rgb(173, 216, 230) !important;
-    overflow-y: hidden;
-    overflow-x: auto;
 }
 
-@media(width <= 700px) {
-    .ori-navbar {
-        padding-left: 0;
-    }
+.ori-navbar a {
+    color: black;
+    
 }
 
 .ori-navbar-brand {
     font-style: italic;
     text-shadow: white 1px 1px 2px;
+}
+
+@media (width > 550px) {
+    /* hide collapsed menu */
+    .ori-collapsed-navbar {
+        display: none;
+    }
+}
+
+@media (width <= 550px) {
+    /* hide large navbar */
+    .ori-large-navbar {
+        display: none;
+    }
+
+    .ori-navbar {
+        padding-left: 0rem;
+    }
+
+    .navbar-expand {
+        justify-content: space-between;
+        padding-right: 1rem;
+    }
+    .dropdown-menu {
+        margin-left: -4rem;
+        background-color: rgb(173, 216, 230) !important;
+    }
 }
 
 .me-auto a {
