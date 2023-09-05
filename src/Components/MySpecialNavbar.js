@@ -22,7 +22,7 @@ function MySpecialNavbar() {
                 <Nav.Link as={ Link } to={ url('animals') }>Animaux</Nav.Link>
                 <Nav.Link as={ Link } to={ url('boxes') }>Boîtes</Nav.Link>
                 <Nav.Link as={ Link } to={ url('other') }>Autres</Nav.Link>
-                <Nav.Link as={ Link } to={ url('all') }>Tous les modèles</Nav.Link>
+                <Nav.Link as={ Link } to={ url('all') }>Tout</Nav.Link>
             </Nav>
             </Navbar.Collapse>
         </Navbar>
