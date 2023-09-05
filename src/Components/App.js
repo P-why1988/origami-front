@@ -1,6 +1,6 @@
 import '../Styles/App.css';
 import '../Styles/bootstrap.css';
-import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
+import { HashRouter, Navigate, Route, Routes } from 'react-router-dom';
 import Home from '../Pages/Home';
 import OrigamiPage from '../Pages/OrigamiPage';
 import { TYPE } from '../Data/origamiList';
@@ -15,7 +15,7 @@ function App() {
     
     return (
         <Container fluid className='p-0 ori-fullsize'>
-            <BrowserRouter>
+            <HashRouter>
                 <MySpecialNavbar />
                 <Container fluid className='p-0 ori-body'>
                     <Routes>
@@ -54,7 +54,7 @@ function App() {
                         />
                     </Routes>
                 </Container>
-            </BrowserRouter>
+            </HashRouter>
         </Container>
   );
 }
