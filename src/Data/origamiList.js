@@ -1,6 +1,9 @@
 import batPlane from '../Assets/CoverImages/bat-plane.jpg';
+import etuiVimg from '../Assets/CoverImages/etui-v.jpg';
 
-export const TYPE = {animal: 'animaux', box: 'boîtes', other: 'autres'};
+export const TYPE = { animal: 'animaux', box: 'boîtes', other: 'autres' };
+
+export const BOX_TYPE = { etuiV: 'Etui V pour cartes', masu: 'Masu' }
 
 export const origamiList = [
     {
@@ -33,11 +36,15 @@ export const origamiList = [
     },
     {
         type: TYPE.box,
-        coverImg: batPlane,
-        imgAlt: 'Fausse boîte 2',
-        name: 'Une drôle de boîte, le retour de la vengeance',
-        description: `On dirait pas que c'est une boîte, et pourtant...`,
-        video: 'https://www.youtube.com/watch?v=1xakZTXOweU',
-        instructions: 'https://www.youtube.com/watch?v=1xakZTXOweU'
+        coverImg: etuiVimg,
+        imgAlt: 'Etui en forme de V',
+        name: BOX_TYPE.etuiV,
+        description: `Etui avec une ouverture en forme de V. Convient aux paquets de cartes peu épais.`,
+        video: 'https://www.youtube.com/watch?v=fEgUx_0-1Qs&t=158s',
+        // instructions: 'https://www.youtube.com/watch?v=1xakZTXOweU',
+        mesureLabel1: 'Largeur des cartes',
+        mesureLabel2: 'Epaisseur du paquet',
+        resultLabel1: 'Longueur totale à découper',
+        resultLabel2: 'Largeur totale à découper',
     }
 ];
